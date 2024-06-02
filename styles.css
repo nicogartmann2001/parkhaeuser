@@ -1,0 +1,253 @@
+:root{
+  --bg:#0D0E09;
+  --font:#fff;
+}
+
+* {
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--font)
+}
+
+body{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+main{
+  padding: 0px 40px;
+}
+
+main div{
+  width: 100%;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h1::before{
+  background-image: url("img/car-icon.png");
+  width: 60px;
+  height: 40px;
+  padding-right: 15px;
+  content: "";
+  display:inline-block;
+  background-size: cover;
+}
+
+h2{
+  font-size: 45px;
+  background-color: rgba(217,217,217,0.2);
+  padding: 2px 10px;
+  display: inline-block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+h3{
+  font-size: 38px;
+  display: inline-block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+h4{
+  margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.content{
+  width: 80%;
+  min-height: 100vh;
+}
+
+.headline{
+  width: 100%;
+}
+
+.text{
+  padding: 2% 0px;
+}
+
+.map{
+  background-image: url("img/map.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 100px;
+  height: 450px;
+  width: 100%;
+  min-width: 500px;
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+
+.footer{
+  background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 475px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap
+}
+
+div.link{
+  background-color: rgba(217,217,217,0.2);
+  text-align: center;
+  height: 3.5rem;
+  transform: scale(1);
+  transition: transform ease-in-out 500ms;
+}
+
+div.link:hover {
+  transform: scale(1.1);
+  transition: transform ease-in-out 500ms;
+}
+
+a{
+  text-decoration: none;
+  font-weight: normal;
+  color: var(--font);
+  font-size: 32px;
+  width: 50%; 
+}
+
+a:visited{
+  text-decoration: none;
+  font-weight: normal;
+  color: var(--font)
+}
+
+.spacer{
+  height: 400px;
+}
+
+.teamseite {
+	margin-bottom: 3%;
+}
+
+.team-block{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+  padding-bottom: 30px;
+}
+
+.team-block img{ 
+  width: 200px;
+}
+
+.team-block p{
+  font-family: "Lexend", sans-serif !important;
+}
+
+.team-block h4{
+  font-family: "Lexend", sans-serif !important;
+  font-weight: bold;
+}
+
+.team-block div{ 
+  align-content: center;
+}
+
+.selected{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  padding-top: 20px;
+}
+
+.selected .head{
+  background-color: #2D8C35;
+  padding: 0 5px;
+}
+
+.selected .selected-text{
+  background-color: #373834;
+  padding: 0 5px;
+  white-space: nowrap;
+}
+
+#points div{
+  position: relative;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  background-color: #373834;
+  transform: scale(1);
+  transition: transform ease-in-out 500ms;
+}
+
+
+#points div:hover {
+  transform: scale(1.5);
+  transition: transform ease-in-out 500ms;
+}
+
+#chart{
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.title{
+  white-space: nowrap;
+}
+
+#buttons{
+  display: flex;
+  padding-bottom: 20px;
+}
+
+#buttons div{
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#buttons .selected-item{
+  background-color: rgba(217,217,217,0.2);
+}
+
+
+@media all and (max-width: 1275px){
+	h1 {
+	font-size: 50px;
+	}
+}
+
+@media all and (max-width: 1000px){
+	h1 {
+	font-size: 45px;
+	}
+}
+
+@media all and (max-width: 800px){
+	h1 {
+	font-size: 40px;
+	}
+}
+
+@media all and (max-width: 600px){
+	h1 {
+	font-size: 35px;
+	}
+}
+
+@media all and (max-width: 400px){
+	h1 {
+	font-size: 30px;
+	}
+}
