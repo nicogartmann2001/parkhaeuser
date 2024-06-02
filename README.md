@@ -1,7 +1,7 @@
 # Parkhäuser in Zürich
 Kurzbeschreibung des Projekts 
 
-Wir haben eine Webseite programmiert, die Daten in einem halbstunden Takt übermittelt. Diese zeigt die verfügbaren Parkplätze und allgemein die Auslastung der Parkhäuser in Zürich an. Die Webseite zeigt die Auslastung der jeweiligen Parkhäuser im letzten Jahr, Monat, Woche und Tag an und bietet eine Gesamtübersicht. Somit kann man diese Auslastungen über einen gewissen Zeitraum analysieren. Wir haben uns hierbei auf die 10 grössten Parkhäuser von Zürich konzentriert. 
+Wir haben eine Webseite programmiert, die Daten in einem halbstunden Takt übermittelt. Diese zeigt die verfügbaren Parkplätze und allgemein die Auslastung der Parkhäuser in Zürich an. Die Webseite zeigt die Auslastung der jeweiligen Parkhäuser im letzten Jahr, Monat, Woche und Tag an und bietet eine Gesamtübersicht. Somit kann man diese Auslastungen über einen gewissen Zeitraum analysieren. Wir haben uns hierbei auf die 10 grössten Parkhäuser von Zürich konzentriert. In einem weiteren Schritt könnte die Webseite noch auf andere schweizer Städte ausgeweitet werden.
 
  
 
